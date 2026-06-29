@@ -1,76 +1,134 @@
 # Brand
 
-> **This document defines how Military Companion should feel—not just how it should look.**
+> **Military Companion is not just an application. It is the trusted companion that stands beside every soldier throughout their military service.**
 
 ---
 
 # Brand Purpose
 
-Military Companion exists to support every Korean soldier throughout their military journey.
+Military Companion exists to make military service less overwhelming and more meaningful.
 
-We help soldiers feel informed, prepared, and supported from enlistment to discharge.
+The application helps soldiers understand what lies ahead, discover opportunities, prepare for the future, and confidently navigate every stage of military life.
+
+Military Companion should become the most trusted digital companion a soldier has during their service.
+
+---
+
+# Brand Vision
+
+Every Korean soldier should immediately think of Military Companion whenever they need guidance, reassurance, or answers.
+
+In the future, Military Companion aims to become the official digital companion supported by the Ministry of National Defense.
 
 ---
 
 # Brand Promise
 
-> **You don't have to figure military life out alone.**
+Military Companion promises one thing:
+
+> **You will never have to figure military life out alone.**
+
+No matter where a soldier is in their journey, the application should always provide clarity, guidance, and support.
 
 ---
 
-# Core Emotion
+# Brand Mission
 
-Every interaction should reinforce one feeling:
+Guide every soldier to get the most out of their military service.
 
-> **Supported.**
-
-The specific emotions may change throughout the journey:
-
-* Before enlistment → Relief
-* Early service → Confidence
-* Mid-service → Control
-* Before discharge → Excitement
-* After discharge → Pride
-
-But the constant feeling should always be:
-
-> **Someone has my back.**
+Every interaction, recommendation, and feature should reinforce this mission.
 
 ---
 
 # Brand Personality
 
-Military Companion should feel like:
+Military Companion should feel like an experienced senior who genuinely wants juniors to succeed.
 
-* A reliable senior soldier
-* Calm under pressure
-* Trustworthy
-* Encouraging
-* Professional
-* Friendly
-* Honest
+The brand should be:
 
-It should never feel:
+- Trustworthy
+- Calm
+- Supportive
+- Professional
+- Encouraging
+- Friendly
+- Honest
+- Reliable
 
-* Condescending
-* Overwhelming
-* Bureaucratic
-* Cold
-* Sensational
+Military Companion should never feel:
+
+- Condescending
+- Bureaucratic
+- Cold
+- Judgmental
+- Overwhelming
+- Complicated
+
+---
+
+# Emotional Journey
+
+The emotional experience should evolve as the soldier progresses through service.
+
+| Stage | Desired Emotion |
+|--------|-----------------|
+| Before Enlistment | Relief |
+| Basic Training | Clarity |
+| Early Service | Confidence |
+| Mid Service | Control |
+| Late Service | Preparedness |
+| Discharge | Pride |
+
+The application should mature alongside the soldier.
+
+---
+
+# Emotional Transformation
+
+Military Companion transforms:
+
+Overwhelmed
+↓
+
+Relieved
+
+Uncertain
+↓
+
+Clear
+
+Confused
+↓
+
+Confident
+
+Passive
+↓
+
+Prepared
+
+Military Companion should always reduce stress rather than create it.
 
 ---
 
 # Tone of Voice
 
-Writing should be:
+Writing should always be:
 
-* Clear
-* Direct
-* Helpful
-* Respectful
-* Encouraging
+- Clear
+- Human
+- Respectful
+- Encouraging
+- Concise
 
-Avoid unnecessary military jargon when plain language communicates more effectively.
+Avoid:
+
+- Unnecessary military jargon
+- Long paragraphs
+- Complicated explanations
+- Fear-based language
+
+The app should communicate like a knowledgeable companion, not a government website.
 
 ---
 
@@ -78,46 +136,84 @@ Avoid unnecessary military jargon when plain language communicates more effectiv
 
 The interface should feel:
 
-* Clean
-* Calm
-* Modern
-* Organized
-* Minimal
+- Clean
+- Calm
+- Modern
+- Organized
+- Approachable
 
-Information should be easy to scan and progressively disclosed.
+Whitespace is valuable.
+
+Information should be easy to scan.
+
+Important actions should be obvious.
+
+The interface should never overwhelm users.
+
+---
+
+# Companion Philosophy
+
+Military Companion is not a dashboard.
+
+Military Companion is not a database.
+
+Military Companion is a companion.
+
+It should proactively guide soldiers instead of waiting for them to search for information.
+
+Every interaction should answer:
+
+> **"How can I help this soldier today?"**
 
 ---
 
 # Notification Philosophy
 
-Notifications should help—not distract.
+Notifications should always provide value.
 
-Every notification should answer one of three questions:
+Every notification should answer at least one of these questions:
 
-* What changed?
-* Why does it matter?
-* What should the soldier do next?
+- What changed?
+- Why does it matter?
+- What should I do next?
 
-Avoid unnecessary notifications.
+Examples:
+
+✓ Promotion registration opens tomorrow.
+
+✓ You're now eligible for a new military discount.
+
+✓ It's a good time to plan your leave.
+
+Avoid unnecessary notifications that do not help the soldier.
 
 ---
 
 # Success
 
-A successful user should finish military service feeling:
+Military Companion succeeds when soldiers say:
 
-> **I understood what I needed to do.**
+"I always knew what I needed to do."
 
-> **I didn't miss important opportunities.**
+"I didn't miss important opportunities."
 
-> **I made the most of my military service.**
+"I felt prepared."
+
+"I made the most of my military service."
 
 ---
 
 # Long-Term Vision
 
-Military Companion aims to become the trusted operating system for a soldier's military journey.
+Military Companion should become one of the most trusted applications in Korea.
 
-It should be the first application soldiers open when they have a question, need guidance, or want to plan their future.
+Not because it has the most features.
 
-Our success will not be measured by downloads alone, but by the number of soldiers who complete their service feeling more prepared, more confident, and more supported because Military Companion was there with them.
+But because soldiers know they can rely on it.
+
+The ultimate goal is simple:
+
+Every soldier should finish military service in a better position than when they entered.
+
+Military Companion should help make that possible.
