@@ -1,209 +1,338 @@
-# User Journeys
+# User Journey
 
-> **Military Companion is built around a soldier's journey, not just their profile.**
-
----
-
-# Overview
-
-Military service is a journey with distinct stages.
-
-Each stage introduces new challenges, responsibilities, questions, and opportunities.
-
-Military Companion should adapt to each stage rather than presenting the same information to every user.
+> **Military Companion should evolve alongside the soldier. The application is not static—it changes its priorities based on where the soldier is in their military service.**
 
 ---
 
-# Journey 1 — Preparing for Enlistment
+# Purpose
 
-## Description
+Military service is a journey, not a single experience.
 
-The user has not yet enlisted but wants to prepare.
+The challenges, emotions, priorities, and opportunities change dramatically over time.
 
-## Goals
+Military Companion should recognize where a soldier is in that journey and provide the right guidance at the right moment.
 
-* Understand military life.
-* Reduce uncertainty.
-* Prepare mentally and physically.
-* Learn what to bring.
-* Learn what to expect.
-
-## Common Questions
-
-* What should I pack?
-* What happens during basic training?
-* How does leave work?
-* What should I prepare beforehand?
-
-## Future Features
-
-* Enlistment checklist.
-* Packing guide.
-* Basic training guide.
-* Frequently asked questions.
+Rather than treating every user the same, the application should adapt continuously throughout their service.
 
 ---
 
-# Journey 2 — Basic Training
+# Journey Overview
 
-## Description
+The soldier's journey consists of six major stages.
 
-The user is currently in basic training.
+1. Before Enlistment
+2. Basic Training
+3. Early Service
+4. Mid Service
+5. Late Service
+6. Discharge & Beyond (Future)
 
-Phone access may be extremely limited.
-
-## Goals
-
-* Understand the training schedule.
-* Learn military terminology.
-* Prepare for graduation.
-* Reduce anxiety.
-
-## Common Questions
-
-* What happens next?
-* How is graduation decided?
-* What should I expect after training?
-
-## Future Features
-
-* Basic training timeline.
-* Graduation milestone tracker.
-* Frequently asked questions.
+Each stage has different goals, concerns, and opportunities.
 
 ---
 
-# Journey 3 — Adapting to Unit Life
+# Stage 1 — Before Enlistment
 
-## Description
+## What the soldier is thinking
 
-The soldier has joined their permanent unit.
+- "I have no idea what military life is like."
+- "What should I prepare?"
+- "Am I forgetting something?"
+- "I'm nervous."
 
-Everything feels unfamiliar.
+## Emotional State
 
-This is often the stage where confusion is highest.
+- Overwhelmed
+- Curious
+- Nervous
+- Uncertain
 
-## Goals
+## Problems
 
-* Understand unit life.
-* Learn promotion requirements.
-* Plan leave.
-* Build routines.
+- Information scattered across the internet
+- Conflicting advice
+- Unknown expectations
+- Fear of the unknown
 
-## Common Questions
+## Military Companion should...
 
-* How many leave days do I have?
-* How do promotions work?
-* What benefits am I eligible for?
-* What should I be doing now?
+- Explain what to expect.
+- Provide preparation checklists.
+- Answer common questions.
+- Reduce anxiety.
+- Build trust before enlistment.
 
-## High-Priority Features
+## Desired Emotion
 
-* Personalized dashboard.
-* Military timeline.
-* Promotion tracker.
-* Leave planner.
-* Benefits hub.
+> Relief
 
----
+The soldier should feel:
 
-# Journey 4 — Active Service
-
-## Description
-
-The soldier understands military life and wants to make the most of it.
-
-## Goals
-
-* Maximize benefits.
-* Prepare financially.
-* Earn certifications.
-* Develop new skills.
-* Prepare for civilian life.
-
-## Common Questions
-
-* What opportunities am I missing?
-* Which certifications should I pursue?
-* How much money can I save?
-* What career resources are available?
-
-## High-Priority Features
-
-* Benefits explorer.
-* Financial planner.
-* Career hub.
-* Opportunity notifications.
+> "Okay... I know what to expect now."
 
 ---
 
-# Journey 5 — Preparing for Discharge
+# Stage 2 — Basic Training
 
-## Description
+## What the soldier is thinking
 
-Military service is approaching its end.
+- "Everything is new."
+- "How does this work?"
+- "What happens next?"
 
-The soldier begins planning the transition back to civilian life.
+## Emotional State
 
-## Goals
+- Confused
+- Overwhelmed
+- Isolated
 
-* Find employment.
-* Continue education.
-* Organize finances.
-* Complete discharge requirements.
+## Problems
 
-## Common Questions
+- Limited access to information
+- Uncertainty about the future
+- Difficulty understanding military systems
 
-* What benefits continue after discharge?
-* How should I prepare for interviews?
-* What government programs exist?
-* What paperwork do I need?
+## Military Companion should...
 
-## High-Priority Features
+- Explain military processes.
+- Show upcoming milestones.
+- Introduce the soldier's service roadmap.
+- Answer beginner questions.
 
-* Discharge checklist.
-* Career preparation.
-* Resume builder.
-* Government support guide.
+## Desired Emotion
 
----
+> Clarity
 
-# Journey 6 — Veteran (Future)
+The soldier should feel:
 
-## Description
-
-The user has completed military service.
-
-## Goals
-
-* Continue accessing military-related resources.
-* Mentor younger soldiers.
-* Stay informed about veteran benefits.
-
-This journey is outside the MVP but may become important in future versions.
+> "Now I understand what's happening."
 
 ---
 
-# Personalization
+# Stage 3 — Early Service
 
-Military Companion should adapt every journey based on:
+## What the soldier is thinking
 
-* Branch
-* Unit
-* Rank
-* Enlistment date
-* Service length
-* Qualifications
-* Personal goals
+- "How do promotions work?"
+- "How much leave do I have?"
+- "What benefits am I eligible for?"
+- "How can I save money?"
 
-No two military journeys are exactly the same.
+## Emotional State
+
+- Curious
+- Motivated
+- Learning
+
+## Problems
+
+- Promotion confusion
+- Leave planning
+- Missing financial opportunities
+- Hidden military discounts
+
+## Military Companion should...
+
+- Introduce personalized recommendations.
+- Surface military benefits.
+- Track promotions.
+- Recommend financial programs.
+- Help organize military life.
+
+## Desired Emotion
+
+> Confidence
+
+The soldier should feel:
+
+> "I know what I need to do."
 
 ---
 
-# Design Principle
+# Stage 4 — Mid Service
 
-The application should always understand one thing before displaying information:
+## What the soldier is thinking
 
-> **Where is this soldier in their journey?**
+- "How can I improve myself?"
+- "What should I accomplish before discharge?"
+- "Am I making good use of my time?"
 
-Once we know that, we can provide the right guidance at the right time.
+## Emotional State
+
+- Stable
+- Motivated
+- Looking ahead
+
+## Problems
+
+- Losing motivation
+- Not planning long-term
+- Missing career preparation opportunities
+
+## Military Companion should...
+
+- Recommend certifications.
+- Suggest leadership opportunities.
+- Track achievements.
+- Encourage long-term planning.
+- Introduce career preparation gradually.
+
+## Desired Emotion
+
+> Control
+
+The soldier should feel:
+
+> "I'm making the most of my military service."
+
+---
+
+# Stage 5 — Late Service
+
+## What the soldier is thinking
+
+- "What happens after discharge?"
+- "How do I prepare for my career?"
+- "Am I ready?"
+
+## Emotional State
+
+- Excited
+- Anxious
+- Hopeful
+
+## Problems
+
+- Resume preparation
+- Job searching
+- Transition planning
+- Missing post-service opportunities
+
+## Military Companion should...
+
+- Prioritize career development.
+- Recommend jobs and internships.
+- Build resumes.
+- Introduce networking opportunities.
+- Prepare soldiers for civilian life.
+
+## Desired Emotion
+
+> Prepared
+
+The soldier should feel:
+
+> "I'm ready for what's next."
+
+---
+
+# Stage 6 — Discharge & Beyond (Future)
+
+## What the soldier is thinking
+
+- "I'm finally done."
+- "What's next?"
+
+## Emotional State
+
+- Proud
+- Excited
+- Reflective
+
+## Problems
+
+- Adjusting to civilian life
+- Continuing career growth
+- Maintaining military connections
+
+## Military Companion should...
+
+- Celebrate the completion of service.
+- Highlight achievements.
+- Continue supporting career development.
+- Maintain an alumni community (future vision).
+
+## Desired Emotion
+
+> Pride
+
+The soldier should feel:
+
+> "I made the most of my military service."
+
+---
+
+# Product Evolution
+
+Military Companion should not look or behave exactly the same throughout a soldier's service.
+
+Instead, it should naturally evolve.
+
+Examples:
+
+Early Service
+
+- Promotions
+- Leave
+- Benefits
+- Financial planning
+
+Mid Service
+
+- Certifications
+- Leadership
+- Skill development
+
+Late Service
+
+- Career
+- Resume
+- Job opportunities
+- Transition planning
+
+The Home screen should continuously adapt as priorities change.
+
+---
+
+# Opportunity Engine
+
+At every stage, Military Companion asks:
+
+> **What opportunity is most valuable for this soldier today?**
+
+Examples include:
+
+- Promotion registration
+- Leave recommendations
+- Military savings programs
+- Discounts
+- Certifications
+- Scholarships
+- Career fairs
+- Resume preparation
+- Government support programs
+
+The answer should change as the soldier progresses through their service.
+
+---
+
+# The Daily Experience
+
+Every time the soldier opens the app, they should immediately understand:
+
+- What matters today.
+- What is coming next.
+- What opportunities are available.
+- What progress they have made.
+
+The application should remove uncertainty and replace it with clarity.
+
+---
+
+# Final Goal
+
+Military Companion should guide soldiers from uncertainty to confidence.
+
+By the time they complete their military service, they should feel that they made the most of their time because they always knew what to do next.
+
+The application succeeds when soldiers leave military service more informed, more prepared, and more confident than when they entered.
