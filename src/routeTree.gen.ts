@@ -9,12 +9,18 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ProfileRouteImport } from './routes/profile'
 import { Route as JourneyRouteImport } from './routes/journey'
 import { Route as CompanionRouteImport } from './routes/companion'
 import { Route as CareerRouteImport } from './routes/career'
 import { Route as BenefitsRouteImport } from './routes/benefits'
 import { Route as IndexRouteImport } from './routes/index'
 
+const ProfileRoute = ProfileRouteImport.update({
+  id: '/profile',
+  path: '/profile',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const JourneyRoute = JourneyRouteImport.update({
   id: '/journey',
   path: '/journey',
@@ -47,6 +53,7 @@ export interface FileRoutesByFullPath {
   '/career': typeof CareerRoute
   '/companion': typeof CompanionRoute
   '/journey': typeof JourneyRoute
+  '/profile': typeof ProfileRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -54,6 +61,7 @@ export interface FileRoutesByTo {
   '/career': typeof CareerRoute
   '/companion': typeof CompanionRoute
   '/journey': typeof JourneyRoute
+  '/profile': typeof ProfileRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -62,13 +70,22 @@ export interface FileRoutesById {
   '/career': typeof CareerRoute
   '/companion': typeof CompanionRoute
   '/journey': typeof JourneyRoute
+  '/profile': typeof ProfileRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/benefits' | '/career' | '/companion' | '/journey'
+  fullPaths:
+    '/' | '/benefits' | '/career' | '/companion' | '/journey' | '/profile'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/benefits' | '/career' | '/companion' | '/journey'
-  id: '__root__' | '/' | '/benefits' | '/career' | '/companion' | '/journey'
+  to: '/' | '/benefits' | '/career' | '/companion' | '/journey' | '/profile'
+  id:
+    | '__root__'
+    | '/'
+    | '/benefits'
+    | '/career'
+    | '/companion'
+    | '/journey'
+    | '/profile'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -77,10 +94,18 @@ export interface RootRouteChildren {
   CareerRoute: typeof CareerRoute
   CompanionRoute: typeof CompanionRoute
   JourneyRoute: typeof JourneyRoute
+  ProfileRoute: typeof ProfileRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/profile': {
+      id: '/profile'
+      path: '/profile'
+      fullPath: '/profile'
+      preLoaderRoute: typeof ProfileRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/journey': {
       id: '/journey'
       path: '/journey'
@@ -125,6 +150,7 @@ const rootRouteChildren: RootRouteChildren = {
   CareerRoute: CareerRoute,
   CompanionRoute: CompanionRoute,
   JourneyRoute: JourneyRoute,
+  ProfileRoute: ProfileRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
