@@ -3,11 +3,11 @@ import { Home, Map, Gift, MessageCircle, Briefcase, User } from "lucide-react";
 
 const items = [
   { to: "/", label: "Home", icon: Home, exact: true },
-  { to: "/journey", label: "Journey", icon: Map },
-  { to: "/benefits", label: "Benefits", icon: Gift },
-  { to: "/companion", label: "Companion", icon: MessageCircle },
-  { to: "/career", label: "Career", icon: Briefcase },
-  { to: "/profile", label: "Profile", icon: User },
+  { to: "/journey", label: "Journey", icon: Map, exact: false },
+  { to: "/benefits", label: "Benefits", icon: Gift, exact: false },
+  { to: "/companion", label: "Companion", icon: MessageCircle, exact: false },
+  { to: "/career", label: "Career", icon: Briefcase, exact: false },
+  { to: "/profile", label: "Profile", icon: User, exact: false },
 ] as const;
 
 export function BottomNav() {
@@ -18,7 +18,7 @@ export function BottomNav() {
           <li key={to}>
             <Link
               to={to}
-              activeOptions={{ exact: !!exact }}
+              activeOptions={{ exact }}
               activeProps={{ className: "text-primary" }}
               inactiveProps={{ className: "text-muted-foreground" }}
               className="flex h-16 flex-col items-center justify-center gap-1 text-[10px] font-medium transition-colors"
