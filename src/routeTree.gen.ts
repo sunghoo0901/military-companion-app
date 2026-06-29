@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as JourneyRouteImport } from './routes/journey'
 import { Route as CompanionRouteImport } from './routes/companion'
+import { Route as CareerRouteImport } from './routes/career'
 import { Route as BenefitsRouteImport } from './routes/benefits'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -22,6 +23,11 @@ const JourneyRoute = JourneyRouteImport.update({
 const CompanionRoute = CompanionRouteImport.update({
   id: '/companion',
   path: '/companion',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CareerRoute = CareerRouteImport.update({
+  id: '/career',
+  path: '/career',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BenefitsRoute = BenefitsRouteImport.update({
@@ -38,12 +44,14 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/benefits': typeof BenefitsRoute
+  '/career': typeof CareerRoute
   '/companion': typeof CompanionRoute
   '/journey': typeof JourneyRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/benefits': typeof BenefitsRoute
+  '/career': typeof CareerRoute
   '/companion': typeof CompanionRoute
   '/journey': typeof JourneyRoute
 }
@@ -51,20 +59,22 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/benefits': typeof BenefitsRoute
+  '/career': typeof CareerRoute
   '/companion': typeof CompanionRoute
   '/journey': typeof JourneyRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/benefits' | '/companion' | '/journey'
+  fullPaths: '/' | '/benefits' | '/career' | '/companion' | '/journey'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/benefits' | '/companion' | '/journey'
-  id: '__root__' | '/' | '/benefits' | '/companion' | '/journey'
+  to: '/' | '/benefits' | '/career' | '/companion' | '/journey'
+  id: '__root__' | '/' | '/benefits' | '/career' | '/companion' | '/journey'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BenefitsRoute: typeof BenefitsRoute
+  CareerRoute: typeof CareerRoute
   CompanionRoute: typeof CompanionRoute
   JourneyRoute: typeof JourneyRoute
 }
@@ -83,6 +93,13 @@ declare module '@tanstack/react-router' {
       path: '/companion'
       fullPath: '/companion'
       preLoaderRoute: typeof CompanionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/career': {
+      id: '/career'
+      path: '/career'
+      fullPath: '/career'
+      preLoaderRoute: typeof CareerRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/benefits': {
@@ -105,6 +122,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BenefitsRoute: BenefitsRoute,
+  CareerRoute: CareerRoute,
   CompanionRoute: CompanionRoute,
   JourneyRoute: JourneyRoute,
 }
