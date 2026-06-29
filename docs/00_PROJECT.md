@@ -1,184 +1,130 @@
-# Military Companion Project Overview
+# Military Companion
 
-> **The digital companion every Korean soldier wishes they had.**
-
----
-
-# Project Summary
-
-Military Companion is a platform designed to help Korean soldiers make the most of their military service.
-
-Rather than serving as a simple leave tracker or information database, Military Companion acts as a trusted companion that guides soldiers through every stage of military life—from enlistment to discharge and beyond.
-
-The platform combines personalized planning tools, verified military information, financial guidance, career opportunities, benefits, and AI assistance into one place.
-
-Our goal is to eliminate the uncertainty that nearly every soldier experiences during military service.
+> **The trusted companion that guides every Korean soldier to get the most out of their military service.**
 
 ---
 
-# Why We Are Building This
+# Project Overview
 
-I experienced many of the same frustrations that most Korean soldiers face.
+Military Companion is a mobile-first application designed to help Korean soldiers navigate every stage of their military service with confidence.
 
-Examples include:
+Military service can be overwhelming due to scattered information, varying procedures between units, and countless opportunities that many soldiers never discover.
 
-* Not knowing what promotion tests needed to be taken.
-* Not knowing how vacation days were calculated.
-* Having to build personal spreadsheets to plan military life.
-* Not knowing what military discounts and benefits existed.
-* Not knowing about financial programs such as military savings accounts.
-* Feeling anxious about career preparation after discharge.
+Military Companion exists to solve that problem.
 
-The information often exists, but it is scattered across different websites, military regulations, banks, notices, and word of mouth.
-
-Military Companion exists to organize this information into one trusted, personalized experience.
+Rather than functioning as a collection of tools, Military Companion acts as a personalized companion that continuously guides each soldier based on their service stage, goals, and circumstances.
 
 ---
 
-# Problem Statement
+# Vision
 
-Military service contains a large amount of valuable information, but it suffers from several problems:
+Become the official digital companion for every Korean soldier.
 
-* Information is scattered.
-* Rules differ between units.
-* Soldiers rely heavily on seniors for guidance.
-* Many opportunities are missed simply because soldiers never learn about them.
-* Military regulations can be difficult to understand.
-* Career preparation often starts too late.
-* Planning for military life requires unnecessary manual work.
+Military Companion should be the first application a soldier opens whenever they have a question, need guidance, or want to prepare for the future.
 
-Our mission is to solve these problems through technology.
+In the long term, we aspire to partner with the Ministry of National Defense to provide official information and services directly to every soldier.
 
 ---
 
-## Build Trust
+# Mission
 
-Accuracy is more important than speed.
+Guide every soldier to get the most out of their military service.
 
-If information cannot be verified, the application should clearly communicate that.
-
----
-
-## Save Time
-
-Military Companion should reduce the amount of time soldiers spend searching for information or planning their military life.
+Military Companion helps soldiers discover opportunities, prepare for milestones, and confidently navigate military life from enlistment through discharge.
 
 ---
 
-## Reduce Stress
+# Product Transformation
 
-Many soldiers feel uncertain because they simply do not know what they do not know.
+Military Companion transforms:
 
-The application should remove unnecessary uncertainty through personalized guidance.
+Overwhelmed → Clear
 
----
+Uncertain → Confident
 
-## Maximize Opportunities
+Reactive → Proactive
 
-A soldier should never miss an opportunity simply because they were unaware of it.
-
-This includes:
-
-* Benefits
-* Discounts
-* Financial programs
-* Educational opportunities
-* Career opportunities
-* Military programs
-* Promotions
+Our success is measured not only by what information we provide, but by how much confidence we give soldiers throughout their service.
 
 ---
 
-# Target Users
+# The Problem
 
-### Primary Users
+Many soldiers struggle because:
 
-* Active-duty Korean soldiers
+- Information is scattered across multiple sources.
+- Benefits are difficult to discover.
+- Military procedures differ by unit.
+- Career preparation often begins too late.
+- Financial opportunities are frequently missed.
+- Soldiers don't know what they don't know.
 
-### Future Users
-
-* Soldiers preparing for enlistment
-* Soldiers approaching discharge
-* Reserve personnel
-* Military families
-* Military administrators (if official partnerships are established)
-
----
-
-# Product Scope
-
-Military Companion focuses on helping soldiers throughout their entire military journey.
-
-Core areas include:
-
-* Service timeline
-* Promotion guidance
-* Leave and vacation planning
-* Military benefits
-* Financial programs
-* Career preparation
-* Personalized milestones
-* AI assistance
-* Verified military information
-
-The platform should always provide information that is personalized to the soldier's branch, unit, rank, enlistment date, and current service status whenever possible.
+The result is unnecessary stress and missed opportunities.
 
 ---
 
-# Current Product Focus
+# Our Solution
 
-Military Companion is currently focused on building an MVP for active-duty soldiers in the Republic of Korea Army.
+Military Companion proactively guides soldiers throughout their military journey.
 
-The MVP prioritizes solving the highest-impact problems experienced during military service, including service planning, military benefits, promotion guidance, financial planning, and career preparation.
+Rather than waiting for users to search for information, the application continuously surfaces the most relevant opportunities, reminders, and recommendations based on each soldier's profile.
 
-Features outside this scope may be explored in future versions after validating the core product.
+Military Companion should answer one question every day:
 
----
-
-# Non-Goals
-
-Version 1 of Military Companion will NOT attempt to:
-
-- Become a social networking platform.
-- Replace official military communication channels.
-- Cover every military regulation.
-- Support every military branch equally from day one.
-- Build features without validating demand from soldiers.
-
-Our priority is solving a small number of important problems exceptionally well.
+> **What should I do today to get the most out of my military service?**
 
 ---
 
-# Success Metrics
+# Core Product Philosophy
 
-Military Companion is successful when:
+Military Companion is not simply an information app.
 
-- Soldiers use it weekly.
-- Soldiers discover benefits they were previously unaware of.
-- Soldiers spend less time searching for information.
-- Soldiers feel more confident planning their military service.
-- Soldiers recommend the app to their juniors.
+It is a trusted companion.
 
----
+Every feature should help soldiers:
 
-# What Military Companion Is NOT
-
-Military Companion is **not**:
-
-* A social media platform
-* A military community forum
-* A news website
-* A game
-* A generic calendar application
-
-Every feature should directly support a soldier's military experience.
+- Understand what matters today.
+- Prepare for tomorrow.
+- Discover opportunities they might otherwise miss.
+- Leave military service in a better position than when they entered.
 
 ---
 
-# Definition of Success
+# Product Principles
 
-We consider Military Companion successful when a new soldier opens the application and immediately feels:
+Military Companion should always:
 
-> "I wish someone had shown me this on my first day."
+- Reduce uncertainty.
+- Increase confidence.
+- Save time.
+- Surface opportunities.
+- Encourage progress.
+- Personalize guidance.
 
-If we consistently achieve that feeling, every feature, partnership, and future expansion will naturally follow.
+---
+
+# Current Development Phase
+
+Current Phase:
+
+✅ Founder OS Complete
+
+🚧 UX Architecture & Product Design (Figma)
+
+Upcoming:
+
+- Information Architecture
+- User Flows
+- Wireframes
+- Design System
+- Interactive Prototype
+- Lovable MVP
+- User Testing
+
+---
+
+# Long-Term Vision
+
+Military Companion aims to become the operating system for military life in Korea.
+
+By combining personalized guidance, official information, financial tools, career preparation, and AI assistance, Military Companion will help every soldier make the most of one of the most important chapters of their life.
