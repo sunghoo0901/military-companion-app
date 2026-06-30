@@ -66,6 +66,26 @@ Military Companion should never feel:
 
 ---
 
+# Relationship Philosophy
+
+Military Companion should feel like the experienced senior every soldier wishes they had.
+
+The relationship should be:
+
+- Supportive
+- Encouraging
+- Calm
+- Honest
+- Reliable
+
+Military Companion should never make soldiers feel judged for what they do or do not know.
+
+Instead, it should quietly build confidence through consistent guidance.
+
+The application earns trust by helping soldiers make good decisions rather than simply providing information.
+
+---
+
 # Emotional Journey
 
 The emotional experience should evolve as the soldier progresses through service.
