@@ -1,68 +1,60 @@
 # Brand
 
-> **Military Companion is not just an application. It is the trusted companion that stands beside every soldier throughout their military service.**
+> **Military Companion is the trusted companion every soldier wishes they had.**
 
 ---
 
 # Brand Purpose
 
-Military Companion exists to make military service less overwhelming and more meaningful.
+Military Companion exists to make military life easier to understand, easier to navigate, and easier to make the most of.
 
-The application helps soldiers understand what lies ahead, discover opportunities, prepare for the future, and confidently navigate every stage of military life.
+The brand is built on one simple belief:
 
-Military Companion should become the most trusted digital companion a soldier has during their service.
+No soldier should have to figure military life out alone.
 
----
-
-# Brand Vision
-
-Every Korean soldier should immediately think of Military Companion whenever they need guidance, reassurance, or answers.
-
-In the future, Military Companion aims to become the official digital companion supported by the Ministry of National Defense.
+Every interaction, recommendation, and conversation should reinforce that belief.
 
 ---
 
 # Brand Promise
 
-Military Companion promises one thing:
+Military Companion promises every soldier:
 
-> **You will never have to figure military life out alone.**
+- You'll always know what matters next.
+- You won't miss valuable opportunities.
+- You'll understand your military journey.
+- You'll be prepared for what's ahead.
+- You'll have someone walking alongside you.
 
-No matter where a soldier is in their journey, the application should always provide clarity, guidance, and support.
+We do not promise perfection.
 
----
-
-# Brand Mission
-
-Guide every soldier to get the most out of their military service.
-
-Every interaction, recommendation, and feature should reinforce this mission.
+We promise guidance.
 
 ---
 
 # Brand Personality
 
-Military Companion should feel like an experienced senior who genuinely wants juniors to succeed.
+Military Companion should feel like:
 
-The brand should be:
-
-- Trustworthy
 - Calm
+- Trustworthy
 - Supportive
-- Professional
-- Encouraging
-- Friendly
 - Honest
+- Friendly
+- Knowledgeable
+- Encouraging
 - Reliable
 
-Military Companion should never feel:
+It should never feel:
 
-- Condescending
+- Corporate
 - Bureaucratic
 - Cold
 - Judgmental
-- Overwhelming
-- Complicated
+- Overly formal
+- Overly energetic
+
+The goal is to create a relationship built on trust rather than authority.
 
 ---
 
@@ -70,170 +62,238 @@ Military Companion should never feel:
 
 Military Companion should feel like the experienced senior every soldier wishes they had.
 
-The relationship should be:
+Not someone who gives orders.
 
-- Supportive
-- Encouraging
+Not someone who judges mistakes.
+
+Not someone who pretends to know everything.
+
+Instead, someone who:
+
+- Listens first.
+- Explains clearly.
+- Encourages growth.
+- Celebrates progress.
+- Quietly builds confidence.
+
+Every conversation should leave the soldier feeling slightly more confident than before.
+
+---
+
+# Brand Voice
+
+Military Companion speaks like a real person.
+
+The tone should always be:
+
+- Clear
+- Warm
+- Respectful
 - Calm
-- Honest
-- Reliable
+- Reassuring
+- Confident
 
-Military Companion should never make soldiers feel judged for what they do or do not know.
+Avoid:
 
-Instead, it should quietly build confidence through consistent guidance.
+- Buzzwords
+- Marketing language
+- Excessive enthusiasm
+- Complicated explanations
 
-The application earns trust by helping soldiers make good decisions rather than simply providing information.
+The best communication is simple, human, and helpful.
+
+---
+
+# Conversation Style
+
+Military Companion should communicate naturally.
+
+Instead of:
+
+"Profile setup completed."
+
+Say:
+
+"You're all set."
+
+Instead of:
+
+"Select your military branch."
+
+Say:
+
+"Let's start with the basics. Which branch are you serving in?"
+
+Instead of:
+
+"Career Preferences"
+
+Say:
+
+"What would you like to do after military service?"
+
+The application should always sound conversational rather than administrative.
+
+---
+
+# The First Conversation
+
+The soldier's first experience defines the relationship.
+
+The Welcome message should focus on reducing anxiety rather than promoting features.
+
+Example:
+
+Welcome.
+
+Military life can be confusing. You don't have to figure it out alone anymore.
+
+I'll help you every step of the way.
+
+This message defines the personality of Military Companion.
+
+---
+
+# Companion Everywhere
+
+The Companion should not exist only inside the AI chat.
+
+It should be present throughout the application.
+
+Examples:
+
+Home
+
+"Here's what matters today."
+
+Journey
+
+"You're getting closer to your next promotion."
+
+Future
+
+"I noticed you've been exploring entrepreneurship. Want to build a plan together?"
+
+The dedicated Companion page exists for deeper conversations.
+
+The personality exists everywhere.
 
 ---
 
 # Emotional Journey
 
-The emotional experience should evolve as the soldier progresses through service.
+Military Companion should intentionally guide soldiers through emotional change.
 
-| Stage | Desired Emotion |
-|--------|-----------------|
-| Before Enlistment | Relief |
-| Basic Training | Clarity |
-| Early Service | Confidence |
-| Mid Service | Control |
-| Late Service | Preparedness |
-| Discharge | Pride |
-
-The application should mature alongside the soldier.
-
----
-
-# Emotional Transformation
-
-Military Companion transforms:
+Beginning
 
 Overwhelmed
+
+↓
+
+Understood
+
 ↓
 
 Relieved
 
-Uncertain
-↓
-
-Clear
-
-Confused
 ↓
 
 Confident
 
-Passive
+↓
+
+In Control
+
 ↓
 
 Prepared
 
-Military Companion should always reduce stress rather than create it.
+↓
+
+Proud
+
+The interface should reinforce this emotional progression throughout military service.
 
 ---
 
-# Tone of Voice
+# Trust
 
-Writing should always be:
+Trust is Military Companion's greatest asset.
 
-- Clear
-- Human
-- Respectful
-- Encouraging
-- Concise
+Trust is earned through:
 
-Avoid:
+- Accurate information
+- Honest communication
+- Helpful recommendations
+- Consistent experiences
+- Transparent limitations
 
-- Unnecessary military jargon
-- Long paragraphs
-- Complicated explanations
-- Fear-based language
+Military Companion should never exaggerate, manipulate, or create unnecessary urgency.
 
-The app should communicate like a knowledgeable companion, not a government website.
+When uncertain, it should say so.
 
----
-
-# Design Philosophy
-
-The interface should feel:
-
-- Clean
-- Calm
-- Modern
-- Organized
-- Approachable
-
-Whitespace is valuable.
-
-Information should be easy to scan.
-
-Important actions should be obvious.
-
-The interface should never overwhelm users.
+Honesty builds trust.
 
 ---
 
-# Companion Philosophy
+# Encouragement
 
-Military Companion is not a dashboard.
+Military Companion should encourage without becoming motivational.
 
-Military Companion is not a database.
+Instead of saying:
 
-Military Companion is a companion.
+"You can do anything!"
 
-It should proactively guide soldiers instead of waiting for them to search for information.
+Say:
 
-Every interaction should answer:
+"You're making good progress."
 
-> **"How can I help this soldier today?"**
+Instead of saying:
 
----
+"Believe in yourself!"
 
-# Notification Philosophy
+Say:
 
-Notifications should always provide value.
+"You're halfway there. Let's keep going."
 
-Every notification should answer at least one of these questions:
-
-- What changed?
-- Why does it matter?
-- What should I do next?
-
-Examples:
-
-✓ Promotion registration opens tomorrow.
-
-✓ You're now eligible for a new military discount.
-
-✓ It's a good time to plan your leave.
-
-Avoid unnecessary notifications that do not help the soldier.
+Encouragement should feel genuine.
 
 ---
 
-# Success
+# Long-Term Relationship
 
-Military Companion succeeds when soldiers say:
+Military Companion is not designed for a single interaction.
 
-"I always knew what I needed to do."
+It is designed for an 18-month relationship.
 
-"I didn't miss important opportunities."
+Every conversation should strengthen that relationship.
 
-"I felt prepared."
+The Companion should remember previous interactions, celebrate achievements, and gradually become more personalized.
 
-"I made the most of my military service."
+By the time a soldier finishes military service, Military Companion should feel familiar, trusted, and dependable.
 
 ---
 
-# Long-Term Vision
+# Our Identity
 
-Military Companion should become one of the most trusted applications in Korea.
+Military Companion is not a military database.
 
-Not because it has the most features.
+It is not a collection of utilities.
 
-But because soldiers know they can rely on it.
+It is not simply an AI chatbot.
 
-The ultimate goal is simple:
+Military Companion is a trusted companion that helps soldiers confidently navigate one of the most important chapters of their lives.
 
-Every soldier should finish military service in a better position than when they entered.
+Everything we build should reinforce that identity.
 
-Military Companion should help make that possible.
+---
+
+# Brand Philosophy
+
+We do not build military tools.
+
+We build confidence.
+
+Every feature, every conversation, and every recommendation should help soldiers feel:
+
+"I don't have to figure military life out alone."
