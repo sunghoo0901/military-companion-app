@@ -1,30 +1,30 @@
 # Design Principles
 
-> **Military Companion is designed to reduce uncertainty, increase confidence, and guide soldiers throughout their military service. Every screen should reflect these principles.**
+> **Military Companion is designed to reduce uncertainty, build confidence, and guide soldiers through one of the most important chapters of their lives. Every design decision should reinforce that mission.**
 
 ---
 
 # Purpose
 
-Military Companion is more than a military information app.
+Design is not decoration.
 
-It is a trusted companion that helps soldiers navigate military life with clarity and confidence.
+Design is how Military Companion builds trust, reduces confusion, and helps soldiers take meaningful action.
 
-Every design decision should support that mission.
+Every screen, interaction, and conversation should make military life feel easier to understand.
 
-If a screen, feature, or interaction does not make military life easier to understand, it should be reconsidered.
+If a design decision does not improve the soldier's experience, it should be reconsidered.
 
 ---
 
-# Core Principle
+# Core Design Question
 
-Every screen should answer one question:
+Every screen should answer one simple question:
 
 > **"What should I do next?"**
 
-The application should guide users instead of expecting them to figure everything out themselves.
+The application should never leave the user wondering where to go or what matters most.
 
-Military Companion is proactive, not reactive.
+Clarity is always more important than complexity.
 
 ---
 
@@ -32,58 +32,55 @@ Military Companion is proactive, not reactive.
 
 Military life already contains enough uncertainty.
 
-The application should remove it.
+Military Companion should remove it.
 
-Every screen should help the user better understand:
+Every screen should help the soldier better understand:
 
 - Where they are
-- What's coming next
+- What comes next
 - What opportunities exist
 - What action they should take
 
-The user should always leave a screen feeling more informed than when they opened it.
+The user should always leave with more clarity than they had before.
 
 ---
 
-# Principle 2 — One Primary Focus
+# Principle 2 — One Clear Purpose
 
-Every screen should have one obvious purpose.
+Every screen should have one primary objective.
 
-The user should immediately understand:
+Avoid competing actions.
 
-> "This is the most important thing here."
+The most important information should always be immediately obvious.
 
-Avoid competing priorities.
-
-Good design directs attention.
+Users should never have to search for the next step.
 
 ---
 
-# Principle 3 — Personalization
+# Principle 3 — Guide Before Informing
 
-No two soldiers should experience the exact same application.
+Information alone rarely changes behavior.
 
-Military Companion should adapt based on:
+Guidance does.
 
-- Branch
-- Rank
-- Unit
-- Enlistment date
-- Expected discharge
-- Career goals
-- Current progress
+Instead of simply presenting facts, Military Companion should explain:
 
-Personalization should happen naturally without making the interface feel complicated.
+- Why something matters
+- What action to take
+- When to act
+- What benefit the soldier receives
+
+Every important piece of information should naturally lead to a meaningful action.
 
 ---
 
 # Principle 4 — Progressive Disclosure
 
-Do not overwhelm the user with information.
+Do not overwhelm users.
 
 Show what matters now.
 
-Reveal additional details only when the user wants them.
+Reveal additional details only when they become relevant.
 
 Simple first.
 
@@ -91,104 +88,182 @@ Details second.
 
 ---
 
-# Principle 5 — Action Before Information
+# Principle 5 — Progressive Personalization
 
-Information alone is not valuable.
+Military Companion begins with broad guidance.
 
-Guidance is.
+As the relationship develops, the application gradually learns:
 
-Instead of simply saying:
+- Career interests
+- Goals
+- Frequently viewed topics
+- Saved opportunities
+- Reading habits
+- Companion conversations
+- Completed milestones
 
-"You have 25 leave days."
-
-The application should help answer:
-
-"What should I do with those leave days?"
-
-Every important piece of information should naturally lead to an action.
-
----
-
-# Principle 6 — Opportunity First
-
-Military Companion should actively surface opportunities.
-
-Users should never need to wonder:
-
-"Is there something I'm missing?"
-
-Examples include:
-
-- Benefits
-- Financial programs
-- Certifications
-- Promotions
-- Career events
-- Government support
-- Military discounts
-
-The application should bring opportunities to the user.
+The application should earn understanding over time instead of demanding information during onboarding.
 
 ---
 
-# Principle 7 — The App Evolves
+# Principle 6 — Companion Everywhere
 
-Military Companion should mature alongside the soldier.
+The Companion is not a single feature.
 
-Early Service
+It is the personality of the product.
 
-Focus:
-
-- Understanding military life
-- Promotions
-- Leave
-- Benefits
-
-Mid Service
-
-Focus:
-
-- Growth
-- Leadership
-- Certifications
-
-Late Service
-
-Focus:
-
-- Career
-- Resume
-- Transition
-
-The interface should subtly shift its priorities over time.
-
----
-
-# Principle 8 — Celebrate Progress
-
-Military service is a long journey.
-
-Celebrate milestones.
+Every major section should feel like the Companion is quietly helping.
 
 Examples:
 
-- Promotion
-- Certification
-- Savings goals
-- Leave achievements
-- Halfway point
-- 100 days remaining
-- Discharge
+Home
 
-Progress should feel meaningful.
+"Here's what matters today."
+
+Journey
+
+"You're approaching your next promotion."
+
+Future
+
+"I noticed you've been exploring entrepreneurship."
+
+The dedicated Companion screen exists for deeper conversations.
+
+The Companion itself exists throughout the application.
 
 ---
 
-# Principle 9 — Calm Interfaces
+# Principle 7 — Every Interaction Is a Conversation
+
+Military Companion should communicate naturally.
+
+The application should never feel like paperwork.
+
+Instead of asking users to complete forms, it should begin conversations.
+
+Instead of collecting information, it should build understanding.
+
+The objective is to understand the soldier well enough to provide meaningful guidance.
+
+---
+
+# Principle 8 — Every Answer Deserves a Response
+
+Whenever the soldier provides information, Military Companion should acknowledge it.
+
+Examples:
+
+User:
+
+"Army"
+
+Companion:
+
+"Great. I'll tailor your recommendations for Army service."
+
+User:
+
+"I enlisted three months ago."
+
+Companion:
+
+"Perfect. I'll prepare your journey based on your current stage of service."
+
+Small acknowledgements make the experience feel personal and human.
+
+---
+
+# Principle 9 — Design Around Experiences
+
+People remember experiences, not screens.
+
+Design should focus on meaningful moments such as:
+
+- Opening the app for the first time
+- Completing onboarding
+- Discovering a valuable opportunity
+- Reaching the halfway point of service
+- Preparing for discharge
+- Completing military service
+
+Every feature should improve one of these experiences.
+
+---
+
+# Principle 10 — Design Emotional Transitions
+
+Every screen should intentionally move the soldier from one emotional state to another.
+
+Examples:
+
+Overwhelmed
+
+↓
+
+Relieved
+
+Confused
+
+↓
+
+Clear
+
+Uncertain
+
+↓
+
+Confident
+
+Lost
+
+↓
+
+In Control
+
+Every interaction should leave the user feeling better than when they arrived.
+
+---
+
+# Principle 11 — Build Daily Habits Through Value
+
+Military Companion should become part of the soldier's daily routine.
+
+Not because of notifications.
+
+Because opening the application provides immediate value.
+
+The Home screen should always answer:
+
+> **"What should I focus on today?"**
+
+If the application consistently answers that question, habits will form naturally.
+
+---
+
+# Principle 12 — Celebrate Progress
+
+Military service is a long journey.
+
+Progress deserves recognition.
+
+Celebrate meaningful milestones such as:
+
+- Promotions
+- Certifications
+- Savings goals
+- Service anniversaries
+- Halfway point
+- Discharge countdown
+- Completion of military service
+
+Celebration reinforces motivation.
+
+---
+
+# Principle 13 — Calm Interfaces
 
 Opening Military Companion should reduce stress.
-
-Never increase it.
 
 The interface should feel:
 
@@ -197,110 +272,89 @@ The interface should feel:
 - Spacious
 - Predictable
 
-Avoid visual clutter.
+Avoid:
 
-Avoid unnecessary animations.
+- Information overload
+- Visual clutter
+- Excessive animations
+- Unnecessary notifications
 
-Avoid overwhelming dashboards.
-
----
-
-# Principle 10 — Companion, Not Dashboard
-
-Military Companion should never feel like a spreadsheet.
-
-It should feel like someone knowledgeable helping the soldier.
-
-Instead of asking:
-
-"What data should we display?"
-
-Ask:
-
-"What guidance should we provide?"
+The design should create confidence through simplicity.
 
 ---
 
-# Principle 11 — Trust Through Simplicity
+# Principle 14 — Trust Above Everything
 
-Trust is earned.
+Trust is Military Companion's greatest asset.
 
-The interface should communicate:
+Trust is earned through:
 
-Accuracy
+- Accurate information
+- Honest communication
+- Transparent limitations
+- Consistent interactions
+- Reliable recommendations
 
-Transparency
+If the application is uncertain, it should communicate that honestly.
 
-Consistency
-
-Reliability
-
-If information is uncertain or depends on the user's unit, say so clearly.
-
-Never pretend to know more than the app actually knows.
+Trust is more valuable than appearing intelligent.
 
 ---
 
-# Principle 12 — Design for Habit
+# Principle 15 — The Relationship Grows
 
-Military Companion should provide value every day.
+Onboarding is not a setup process.
 
-The user should naturally develop the habit of opening the application because it consistently answers:
+It is the beginning of an ongoing relationship.
 
-> "What's important today?"
+Military Companion should remember previous interactions, adapt recommendations, celebrate milestones, and continue helping throughout military service.
 
-Not because of notifications.
-
-Because opening the app is genuinely useful.
+The relationship should become stronger over time.
 
 ---
 
-# The Home Screen Philosophy
+# Home Screen Philosophy
 
-The Home screen exists for one reason.
-
-To answer:
+The Home screen exists to answer one question:
 
 > **"What should I focus on today?"**
 
-Everything else supports that answer.
+Everything on the Home screen should support that purpose.
 
-Examples:
+Examples include:
 
-Today's Focus
+- Today's Focus
+- Upcoming milestones
+- Recommended opportunities
+- Journey progress
+- Suggested next actions
 
-Upcoming Milestones
-
-New Opportunities
-
-Service Progress
-
-Suggested Actions
-
-Nothing should distract from that purpose.
+Anything that does not help answer that question should be reconsidered.
 
 ---
 
-# Success
+# Onboarding Philosophy
 
-A successful design makes the soldier feel:
+Onboarding should feel like the first conversation.
 
-Less overwhelmed.
+It should never feel like account setup.
 
-More informed.
+The objective is not to collect information.
 
-More confident.
+The objective is to begin a relationship.
 
-More prepared.
+Military Companion should ask only what it needs to provide immediate value.
 
-The best compliment Military Companion can receive is:
-
-> "I always knew what I needed to do."
+Everything else can be learned naturally over time.
 
 ---
 
 # Final Principle
 
-Every screen should help soldiers leave military service in a better position than when they entered.
+Military Companion succeeds when soldiers feel:
 
-If a design decision supports that mission, it is probably the right decision.
+> **"I never had to figure military life out alone."**
+
+Every design decision should move the product closer to that feeling.
+
+If a feature increases confidence, provides guidance, and strengthens trust, it belongs in Military Companion.
